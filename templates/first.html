@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <title>Amit</title>
+    <link rel="stylesheet" href="{{url_for('static',filename='alpha.css')}}" />
+  </head>
+  <body>
+    <header>
+      <nav>
+        <ul>
+          <li><a href="#">Home</a></li>
+          <li><a href="#">About</a></li>
+          <li><a href="#">Services</a></li>
+          <li><a href="#">Contact</a></li>
+        </ul>
+      </nav>
+    </header>
+    <main>
+      <h1 style="color: red">
+        <i><strong>CROP PREDICTION</strong></i>
+      </h1>
+    </main>
+    <form action="/Predict">
+      <input
+        type="submit"
+        id="Predict"
+        name="Predict"
+        action="/Predict"
+        value="Predict"
+      />
+    </form>
+  </body>
+</html>
